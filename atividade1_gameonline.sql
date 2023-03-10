@@ -27,7 +27,7 @@ VALUE ("Paladino", "Espada/Escudo")
 , ("Elfo", "Arco e flecha")
 , ("Guerreiro", "Machado gigante");
 
-INSERT INTO tb_personagens(nome, vantagem, ataque, defesa)
+INSERT INTO tb_personagens(nome, vantagem, ataque, defesa, classes_id)
 VALUE ("Donavan", "Abençoado", 15, 07),
 	  ("Ghanor", "Magia", 11, 12),
 	  ("Galadriel", "Equilibrio", 13, 10),
